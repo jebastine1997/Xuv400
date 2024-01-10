@@ -4,14 +4,17 @@ body {
     padding: 0px;
     overflow-x: hidden;
 }
-#owl-demo .item{
+
+#owl-demo .item {
     margin: 3px;
-  }
-  #owl-demo .item img{
+}
+
+#owl-demo .item img {
     display: block;
     width: 100%;
     height: auto;
-  }
+}
+
 .mcontainer1 {
     max-width: 100%;
 }
@@ -67,6 +70,14 @@ body {
     text-align: center;
 }
 
+.test2pg2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    line-height: 45px;
+    color: #ffffff;
+    text-align: center;
+}
+
 .ctabox {
     width: 220px;
     margin: auto;
@@ -102,14 +113,18 @@ body {
     margin-right: auto
 } */
 
-.caroimg
-{
+.letsgopg2 {
+    max-width: 210px;
+    display: block;
+    margin: auto;
+}
+
+.caroimg {
     height: 250px;
     margin: auto;
 }
 
-.owl-carousel
-{
+.owl-carousel {
     max-width: 360px;
     margin: auto;
 }
@@ -128,6 +143,17 @@ body {
     }
 
     .unleashed {
+        height: 168px;
+        margin-top: 10px;
+    }
+
+    .toplogopg2 {
+        height: 66px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .unleashedpg2 {
         height: 168px;
         margin-top: 10px;
     }
@@ -158,7 +184,18 @@ body {
 
 @media (max-width: 670px) {
 
-    
+    .unleashedpg2 {
+        height: 146px;
+        margin-top: 10px;
+    }
+
+    .toplogopg2 {
+        height: 51px;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+
+
     .toplogo {
         height: 58px;
         margin-top: 24px;
@@ -186,6 +223,11 @@ body {
         line-height: 40px;
     }
 
+    .test2pg2 {
+        font-size: 23px;
+        line-height: 40px;
+    }
+
     .howto {
         font-size: 28px;
         margin-top: 0px;
@@ -196,24 +238,41 @@ body {
         height: 56px;
     }
 
+    .letsgopg2 {
+        height: 56px;
+    }
+
 }
 
 @media (max-width: 598px) {
 
-    .maind
-    {
+    .maind {
         background-image: url(../images/background1.png);
     }
+
     .toplogo {
         height: 50px;
         margin-top: 21px;
         margin-left: 23px;
     }
 
+    .toplogopg2 {
+        height: 47px;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+
+    .unleashedpg2 {
+        height: 136px;
+        margin-top: 10px;
+    }
+
     .unleashed {
         height: 138px;
         margin-top: 33px;
     }
+
+
 
     .textbox {
         width: 100%;
@@ -238,17 +297,49 @@ body {
 
 @media (max-width: 520px) {
 
-    .maind
-    {
+    .maind {
         background-image: url(../images/background2.png);
         position: absolute;
-        height: 1000px;
-        
+        height: 100%;
+
     }
+
+    .test2pg2 {
+        font-size: 18px;
+        line-height: 14px;
+    }
+
+    .toplogopg2 {
+        height: 33px;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+    .howto {
+        font-size: 20px;
+        margin-top: -8px;
+        line-height: 20px;
+    }
+
     .toplogo {
         height: 50px;
         margin-top: 23px;
         margin-left: 25px;
+    }
+
+    .unleashedpg2 {
+        height: 97px;
+        margin-top: 4px;
+    }
+
+    .caroimg {
+        height: 150px;
+        width: 298px !important;
+        margin: auto;
+    }
+
+    .letsgopg2 {
+        height: 41px;
     }
 
     .unleashed {
@@ -275,9 +366,30 @@ body {
         margin-left: 22px;
     }
 
+    .toplogopg2 {
+        height: 33px;
+        margin-top: 19px;
+        margin-left: 20px;
+    }
+
     .unleashed {
         height: 121px;
         margin-top: 10px;
+    }
+
+    .unleashedpg2 {
+        height: 100px;
+        margin-top: 4px;
+    }
+
+    .caroimg {
+        height: 135px;
+        width: 217px !important;
+        margin: auto;
+    }
+
+    .letsgopg2 {
+        height: 38px;
     }
 
     .test1 {
@@ -302,8 +414,14 @@ body {
         height: 106px;
         margin-top: 10px;
     }
+
+    .unleashedpg2 {
+        height: 91px;
+        margin-top: 4px;
+    }
+
     .howto {
-        font-size: 24px;
+        font-size: 20px;
         margin-top: 0px;
         line-height: 20px;
     }
@@ -332,9 +450,14 @@ body {
     }
 
     .howto {
-        font-size: 22px;
-        margin-top: 0px;
+        font-size: 19px;
+        margin-top: -10px;
         line-height: 20px;
+    }
+
+    test2pg2 {
+        font-size: 17px;
+        line-height: 14px;
     }
 
     .letsgo {
@@ -344,6 +467,40 @@ body {
 
     .ctabox {
         margin-top: 20px;
+    }
+
+    .ctabox2 {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 370px)
+{
+    .toplogopg2 {
+        height: 30px;
+        margin-top: 19px;
+        margin-left: 20px;
+    }
+
+    .unleashedpg2 {
+        height: 80px;
+        margin-top: 4px;
+    }
+
+    .howto {
+        font-size: 17px;
+        margin-top: -10px;
+        line-height: 20px;
+    }
+
+    .test2pg2 {
+        font-size: 16px;
+        margin-top: 0px;
+        line-height: 14px;
+    }
+
+    .letsgopg2 {
+        height: 34px;
     }
 }
 
