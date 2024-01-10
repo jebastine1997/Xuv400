@@ -25,14 +25,14 @@ body {
     position: relative;
 }
 
-/* .toplogo {
+.toplogo {
     margin-top: 25px;
     margin-left: 40px;
 }
 
 .unleashed {
     margin-top: 40px;
-} */
+}
 
 .textbox {
     width: 592px;
@@ -71,6 +71,7 @@ body {
 .letsgo
 {
     max-width: 210px;
+    display: block;
     margin: auto;
 }
 
@@ -92,6 +93,11 @@ body {
         margin-top: 10px;
     }
 
+    .ctabox
+{
+    width: 100%;
+    margin: auto;
+}
 
     .maind {
         background-size: cover;
@@ -108,25 +114,25 @@ body {
         top: 0;
         bottom: 0;
         right: 0;
-        overflow: scroll;
+        /* overflow: scroll; */
     }
 }
 
 @media (max-width: 670px) {
     .toplogo {
         height: 58px;
-        margin-top: 30px;
+        margin-top: 24px;
         margin-left: 30px;
     }
 
     .unleashed {
-        height: 162px;
-        margin-top: 30px;
+        height: 144px;
+        margin-top: 25px;
     }
 
     .textbox {
-        width: 100%;
-        padding-top: 40px;
+        width: 520px;
+        padding-top: 20px;
         margin: auto;
     }
 
@@ -142,13 +148,18 @@ body {
         line-height: 40px;
     }
 
+    .letsgo
+    {
+        height: 56px;
+    }
+
 }
 
-@media (max-width: 590px) {
+@media (max-width: 598px) {
     .toplogo {
-        height: 66px;
-        margin-top: 30px;
-        margin-left: 30px;
+        height: 50px;
+        margin-top: 21px;
+        margin-left: 23px;
     }
 
     .unleashed {
@@ -156,29 +167,40 @@ body {
         margin-top: 33px;
     }
 
+    .textbox {
+        width: 100%;
+        padding-top: 15px;
+        margin: auto;
+    }
+
     .test1
     {
-        font-size: 22px;
-        line-height: 38px;
+        font-size: 20px;
+        line-height: 36px;
     }
 
     .test2
     {
-        font-size: 22px;
-        line-height: 38px;
+        font-size: 20px;
+        line-height: 36px;
+    }
+
+    .letsgo
+    {
+        height: 50px;
     }
 }
 
-@media (max-width: 515px) {
+@media (max-width: 520px) {
     .toplogo {
-        height: 66px;
-        margin-top: 30px;
-        margin-left: 30px;
+        height: 50px;
+        margin-top: 23px;
+        margin-left: 25px;
     }
 
     .unleashed {
         height: 128px;
-        margin-top: 33px;
+        margin-top: 18px;
     }
 
     .test1
@@ -203,7 +225,7 @@ body {
     }
 
     .unleashed {
-        height: 113px;
+        height: 121px;
         margin-top: 10px;
     }
 
@@ -220,9 +242,15 @@ body {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 440px) {
+    .toplogo {
+        height: 45px;
+        margin-top: 20px;
+        margin-left: 22px;
+    }
+    
     .unleashed {
-        height: 96px;
+        height: 114px;
         margin-top: 10px;
     }
 }
