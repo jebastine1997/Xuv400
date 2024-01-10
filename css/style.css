@@ -188,6 +188,18 @@ body {
         height: 113px;
         margin-top: 10px;
     }
+
+    .test1
+    {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .test2
+    {
+        font-size: 20px;
+        line-height: 32px;
+    }
 }
 
 @media (max-width: 400px) {
