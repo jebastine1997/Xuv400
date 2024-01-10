@@ -248,9 +248,75 @@ body {
         margin-top: 20px;
         margin-left: 22px;
     }
-    
+
     .unleashed {
-        height: 114px;
+        height: 106px;
         margin-top: 10px;
     }
 }
+
+@media (max-width: 400px) {
+    .toplogo {
+        height: 38px;
+        margin-top: 20px;
+        margin-left: 22px;
+    }
+
+    .unleashed {
+        height: 95px;
+        margin-top: 10px;
+    }
+
+    .test1
+    {
+        font-size: 18px;
+        line-height: 31px;
+    }
+
+    .test2
+    {
+        font-size: 18px;
+        line-height: 31px;
+    }
+
+    .letsgo
+    {
+        height: 40px;
+    }
+}
+
+@media (max-width: 350px) {
+    .toplogo {
+        height: 29px;
+        margin-top: 20px;
+        margin-left: 22px;
+    }
+
+    .unleashed {
+        height: 81px;
+        margin-top: 10px;
+    }
+
+    .textbox
+    {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .test1
+    {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .test2
+    {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .letsgo
+    {
+        height: 40px;
+    }
+}
+
