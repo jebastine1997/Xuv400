@@ -48,15 +48,16 @@ html,body {
         overflow: hidden;
      }
 
-     .toplogo
-     {
-        height: 84px;
+     .toplogo {
+        height: 66px;
+        margin-top: 30px;
+        margin-left: 30px;
      }
-
-     .unleashed
-     {
-        height: 180px;
-     }
+     .unleashed {
+        height: 168px;
+        margin-top: 10px;
+    }
+    
 
     .maind
     {
@@ -78,20 +79,49 @@ html,body {
     }
  }
 
+ @media (max-width: 670px) 
+ {
+    .toplogo {
+        height: 58px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
 
-@media (max-width: 575.98px)
+    .unleashed {
+        height: 162px;
+        margin-top: 30px;
+    }
+
+ }
+@media (max-width: 590px)
 { 
-    .toplogo
-     {  
-        margin-top: 19px;
-        margin-left: 25px;
-        height: 44px;
-     }
+    .toplogo {
+        height: 66px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
 
-     .unleashed
-     {  
-        margin-top: 25px;
-        height: 98px;
-     }
+     .unleashed {
+        height: 138px;
+        margin-top: 33px;
+    }
 }
 
+@media (max-width: 515px)
+{
+    .toplogo {
+        height: 66px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .unleashed {
+        height: 128px;
+        margin-top: 33px;
+    }
+
+}
+
+@media (max-width: 490px)
+{
+    
+}
