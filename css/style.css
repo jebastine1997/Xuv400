@@ -1,18 +1,17 @@
-html,body {
+html,
+body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
- }
-  
-
-.mcontainer1
-{
-    max-width: 100%;
-    
 }
 
-.maind
-{
+
+.mcontainer1 {
+    max-width: 100%;
+
+}
+
+.maind {
     background-image: url(../images/background.png);
     width: 720px;
     height: 1382px;
@@ -22,65 +21,80 @@ html,body {
     margin: auto;
 }
 
-.deslogo
-{
+.deslogo {
     position: relative;
 }
 
-.toplogo
-{
+.toplogo {
     margin-top: 25px;
     margin-left: 40px;
 }
 
-.unleashed
-{
+.unleashed {
     margin-top: 40px;
 }
 
+.textbox {
+    width: 592px;
+    padding-top: 40px;
+    margin: auto;
+}
 
+.test1
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;line-height: 45px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.test2
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;line-height: 45px;
+    color: #ffffff;
+    text-align: center;
+}
 
 /* media queries */
 
-@media (max-width: 720px) 
-{ 
+@media (max-width: 720px) {
     body {
         overflow: hidden;
-     }
+    }
 
-     .toplogo {
+    .toplogo {
         height: 66px;
         margin-top: 30px;
         margin-left: 30px;
-     }
-     .unleashed {
+    }
+
+    .unleashed {
         height: 168px;
         margin-top: 10px;
     }
-    
 
-    .maind
-    {
+
+    .maind {
         background-size: cover;
-        background-repeat:no-repeat;
-        background-position:center; 
+        background-repeat: no-repeat;
+        background-position: center;
         -moz-background-size: cover;
         -o-background-size: cover;
         -webkit-background-size: cover;
         -ms-content-zooming: none;
-        position:absolute;
-        width:100%;
-        height:100%;
+        position: absolute;
+        width: 100%;
+        height: 100%;
         left: 0;
         top: 0;
         bottom: 0;
         right: 0;
         overflow: scroll;
     }
- }
+}
 
- @media (max-width: 670px) 
- {
+@media (max-width: 670px) {
     .toplogo {
         height: 58px;
         margin-top: 30px;
@@ -92,37 +106,78 @@ html,body {
         margin-top: 30px;
     }
 
- }
-@media (max-width: 590px)
-{ 
+    .textbox {
+        width: 100%;
+        padding-top: 40px;
+        margin: auto;
+    }
+
+    .test1
+    {
+        font-size: 23px;
+        line-height: 40px;
+    }
+
+    .test2
+    {
+        font-size: 23px;
+        line-height: 40px;
+    }
+
+}
+
+@media (max-width: 590px) {
     .toplogo {
         height: 66px;
         margin-top: 30px;
         margin-left: 30px;
     }
 
-     .unleashed {
+    .unleashed {
         height: 138px;
         margin-top: 33px;
     }
+
+    .test1
+    {
+        font-size: 22px;
+        line-height: 38px;
+    }
+
+    .test2
+    {
+        font-size: 22px;
+        line-height: 38px;
+    }
 }
 
-@media (max-width: 515px)
-{
+@media (max-width: 515px) {
     .toplogo {
         height: 66px;
         margin-top: 30px;
         margin-left: 30px;
     }
+
     .unleashed {
         height: 128px;
         margin-top: 33px;
     }
 
+    .test1
+    {
+        font-size: 22px;
+        line-height: 38px;
+    }
+
+    .test2
+    {
+        font-size: 22px;
+        line-height: 38px;
+    }
+
 }
 
-@media (max-width: 490px)
-{
+@media (max-width: 490px) {
     .toplogo {
         height: 45px;
         margin-top: 20px;
@@ -135,8 +190,7 @@ html,body {
     }
 }
 
-@media (max-width: 400px)
-{
+@media (max-width: 400px) {
     .unleashed {
         height: 96px;
         margin-top: 10px;
