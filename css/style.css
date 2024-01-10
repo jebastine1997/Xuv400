@@ -123,5 +123,22 @@ html,body {
 
 @media (max-width: 490px)
 {
-    
+    .toplogo {
+        height: 45px;
+        margin-top: 20px;
+        margin-left: 22px;
+    }
+
+    .unleashed {
+        height: 113px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 400px)
+{
+    .unleashed {
+        height: 96px;
+        margin-top: 10px;
+    }
 }
