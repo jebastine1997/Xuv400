@@ -231,13 +231,13 @@ body {
 
     .test1
     {
-        font-size: 20px;
+        font-size: 19px;
         line-height: 32px;
     }
 
     .test2
     {
-        font-size: 20px;
+        font-size: 19px;
         line-height: 32px;
     }
 }
@@ -269,23 +269,29 @@ body {
 
     .test1
     {
-        font-size: 18px;
+        font-size: 17px;
         line-height: 31px;
     }
 
     .test2
     {
-        font-size: 18px;
+        font-size: 17px;
         line-height: 31px;
     }
 
     .letsgo
     {
+        
         height: 40px;
+    }
+
+    .ctabox
+    {
+        margin-top: 20px;
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 359px) {
     .toplogo {
         height: 29px;
         margin-top: 20px;
@@ -304,13 +310,13 @@ body {
     }
     .test1
     {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 30px;
     }
 
     .test2
     {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 30px;
     }
 
