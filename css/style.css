@@ -42,37 +42,47 @@ body {
     padding-right: 20px;
 }
 
-.brhide
-{
+.brhide {
     display: none;
 }
-.test1
-{
+
+.test1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 28px;line-height: 45px;
+    font-size: 28px;
+    line-height: 45px;
     color: #ffffff;
     text-align: center;
 }
 
-.test2
-{
+.test2 {
     font-family: 'Poppins', sans-serif;
-    font-size: 28px;line-height: 45px;
+    font-size: 28px;
+    line-height: 45px;
     color: #ffffff;
     text-align: center;
 }
 
-.ctabox
-{
+.ctabox {
     width: 220px;
     margin: auto;
 }
 
-.letsgo
-{
+.letsgo {
     max-width: 210px;
     display: block;
     margin: auto;
+}
+
+/* Page 2 */
+
+.howto {
+    font-family: 'Poppins', sans-serif;
+    font-size: 34px;
+    margin-top: -20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 600;
 }
 
 /* media queries */
@@ -93,11 +103,10 @@ body {
         margin-top: 10px;
     }
 
-    .ctabox
-{
-    width: 100%;
-    margin: auto;
-}
+    .ctabox {
+        width: 100%;
+        margin: auto;
+    }
 
     .maind {
         background-size: cover;
@@ -136,20 +145,23 @@ body {
         margin: auto;
     }
 
-    .test1
-    {
+    .test1 {
         font-size: 23px;
         line-height: 40px;
     }
 
-    .test2
-    {
+    .test2 {
         font-size: 23px;
         line-height: 40px;
     }
 
-    .letsgo
-    {
+    .howto {
+        font-size: 28px;
+        margin-top: 0px;
+        line-height: 20px;
+    }
+
+    .letsgo {
         height: 56px;
     }
 
@@ -173,20 +185,17 @@ body {
         margin: auto;
     }
 
-    .test1
-    {
+    .test1 {
         font-size: 20px;
         line-height: 36px;
     }
 
-    .test2
-    {
+    .test2 {
         font-size: 20px;
         line-height: 36px;
     }
 
-    .letsgo
-    {
+    .letsgo {
         height: 50px;
     }
 }
@@ -203,14 +212,12 @@ body {
         margin-top: 18px;
     }
 
-    .test1
-    {
+    .test1 {
         font-size: 22px;
         line-height: 38px;
     }
 
-    .test2
-    {
+    .test2 {
         font-size: 22px;
         line-height: 38px;
     }
@@ -229,14 +236,12 @@ body {
         margin-top: 10px;
     }
 
-    .test1
-    {
+    .test1 {
         font-size: 19px;
         line-height: 32px;
     }
 
-    .test2
-    {
+    .test2 {
         font-size: 19px;
         line-height: 32px;
     }
@@ -253,6 +258,11 @@ body {
         height: 106px;
         margin-top: 10px;
     }
+    .howto {
+        font-size: 24px;
+        margin-top: 0px;
+        line-height: 20px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -267,26 +277,28 @@ body {
         margin-top: 10px;
     }
 
-    .test1
-    {
+    .test1 {
         font-size: 17px;
         line-height: 31px;
     }
 
-    .test2
-    {
+    .test2 {
         font-size: 17px;
         line-height: 31px;
     }
 
-    .letsgo
-    {
-        
+    .howto {
+        font-size: 22px;
+        margin-top: 0px;
+        line-height: 20px;
+    }
+
+    .letsgo {
+
         height: 40px;
     }
 
-    .ctabox
-    {
+    .ctabox {
         margin-top: 20px;
     }
 }
@@ -303,26 +315,22 @@ body {
         margin-top: 10px;
     }
 
-    .textbox
-    {
+    .textbox {
         padding-left: 10px;
         padding-right: 10px;
     }
-    .test1
-    {
+
+    .test1 {
         font-size: 14px;
         line-height: 30px;
     }
 
-    .test2
-    {
+    .test2 {
         font-size: 14px;
         line-height: 30px;
     }
 
-    .letsgo
-    {
+    .letsgo {
         height: 40px;
     }
 }
-
