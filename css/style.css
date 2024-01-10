@@ -25,14 +25,14 @@ body {
     position: relative;
 }
 
-.toplogo {
+/* .toplogo {
     margin-top: 25px;
     margin-left: 40px;
 }
 
 .unleashed {
     margin-top: 40px;
-}
+} */
 
 .textbox {
     width: 592px;
@@ -60,6 +60,18 @@ body {
     font-size: 28px;line-height: 45px;
     color: #ffffff;
     text-align: center;
+}
+
+.ctabox
+{
+    width: 220px;
+    margin: auto;
+}
+
+.letsgo
+{
+    max-width: 210px;
+    margin: auto;
 }
 
 /* media queries */
