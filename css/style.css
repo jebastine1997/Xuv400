@@ -412,6 +412,17 @@ body {
         margin-top: 4px;
     }
 
+    .owl-theme .owl-nav.disabled + .owl-dots {
+        margin-top: 3px;
+    }
+
+    .owl-theme .owl-dots .owl-dot span {
+        width: 8px;
+        height: 8px;
+        margin: 5px 7px;
+        background: #29FFE0;
+    }
+
     .unleashedpg2 {
         height: 100px;
         margin-top: 4px;
@@ -425,10 +436,10 @@ body {
     }
 
     .caroimg {
-        height: 146px;
-        width: 288px !important;
+        height: 134px;
+        width: 265px !important;
         margin: auto;
-        margin-bottom: -11px;
+        /* margin-bottom: -11px; */
         margin-top: -10px;
     }
 
@@ -484,10 +495,10 @@ body {
     }
 
     .caroimg {
-        height: 144px;
-        width: 286px !important;
+        height: 126px;
+        width: 236px !important;
         margin: auto;
-        margin-bottom: -19px;
+        /* margin-bottom: -11px; */
     }
 
     .owl-theme .owl-dots .owl-dot span {
@@ -539,6 +550,13 @@ body {
         line-height: 29px;
     }
 
+    .caroimg {
+        height: 120px;
+        width: 211px !important;
+        margin: auto;
+        /* margin-bottom: -19px; */
+    }
+
     .letsgo {
 
         height: 40px;
@@ -573,10 +591,10 @@ body {
         
 
     .caroimg {
-        height: 135px;
-        width: 274px !important;
+        height: 120px;
+        width: 211px !important;
         margin: auto;
-        margin-bottom: -19px;
+        /* margin-bottom: -19px; */
     }
 }
 
@@ -610,11 +628,11 @@ body {
     }
 
     .caroimg {
-        height: 146px;
-        width: 264px !important;
+        height: 128px;
+        width: 235px !important;
         margin: auto;
-        margin-bottom: -14px;
     }
+    
 }
 
 @media (max-width: 359px) {
@@ -635,8 +653,8 @@ body {
     }
 
     .caroimg {
-        height: 130px;
-        width: 245px !important;
+        height: 111px;
+        width: 200px !important;
         margin: auto;
     }
 
@@ -656,5 +674,20 @@ body {
 
     .letsgopg2 {
         height: 32px;
+    }
+}
+
+@media (max-width: 330px)
+{
+    .howto {
+        font-size: 16px;
+        margin-top: -3px;
+        line-height: 18px;
+    }
+
+    .test2pg2 {
+        font-size: 14px;
+        line-height: 26px;
+        margin-top: -3px;
     }
 }
