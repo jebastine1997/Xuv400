@@ -4,26 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XUV400</title>
+    <title>Mahindra #UnleashThePro GAME</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,200;1,400;1,600;1,700&display=swap"
-        rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-         <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,200;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">	
+	<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
-    <div class="container mcontainer1">
+    <div class="mcontainer1">
         <div class="maind">
-            <div class="deslogo">
-
-             
+            <div class="deslogo">             
                 <!-- Page 1 -->
-                <div class="pg1" style="display: none;">
+                <div class="pg1" id="pg1" style="display: block;">
                     <img src="images/toplogo.png" alt="logo" class="toplogo img-fluid">
                     <br>
                     <img src="images/unleashed.png" alt="unleashed" class="unleashed img-fluid">
@@ -31,16 +48,15 @@
                     <div class="textbox">
                         <p class="test1">New interiors, upgraded infotainment,<br class="brhide"> a plush new dashboard?
                         </p>
-                        <p class="test2 ">Let’s go find out what’s in store with <br class="brhide"> the Mahindra XUV 400
-                            EL PRO.</p>
+                        <p class="test2 ">Take the quiz to unlock the new features <br class="brhide"> of the Mahindra XUV 400 EL PRO and <br class="brhide"> stand a chance to win a once in <br class="brhide"> a lifetime opportunity to visit the <br class="brhide">Mahindra Chakan plant!</p>
                     </div>
 
                     <div class="ctabox">
-                        <img src="images/gotit.png" alt="cta" class="letsgo ">
+                       <!-- <a href="#"> --><img src="images/letsgo.png" alt="cta" class="letsgo" onclick="loadPageScreen();"><!-- </a> -->
                     </div>
                 </div>
                 <!-- Page 2 -->
-                <div class="pg2" style="display: block;">
+                <div class="pg2" id="pg2" style="display: none;">
                 <img src="images/toplogo.png" alt="logo" class="img-fluid toplogopg2">
                 <br>
                 <img src="images/unleashed.png" alt="unleashed" class=" unleashedpg2 img-fluid">
@@ -62,30 +78,94 @@
                                 <img src="images/caro2tw.png" alt="" class="caroimg">
                             </div>
                             <div class="item">
-                                <img src="images/caro1.png" alt="" class="caroimg">
+                                <p class="test2pg2">Unlock the feature of <br>the Mahindra XUV 400 EL PRO</p>
+                                <img src="images/caro3.png" alt="" class="caroimg">
                             </div>
                             <div class="item">
-                                <img src="images/caro1.png" alt="" class="caroimg">
+                                <p class="test2pg2">Watch out, you only have <br>15 seconds per answer!​</p>
+                                <img src="images/caro4.png" alt="" class="caroimg">
                             </div>
                             <div class="item">
-                                <img src="images/caro1.png" alt="" class="caroimg">
+                                <p class="test2pg2">The faster you complete the game,<br>the better your chance to win the BIG prize!​</p>
+                                <img src="images/caro5.png" alt="" class="caroimg">
+                            </div>
+                             <div class="item">
+                                <p class="test2pg2">To increase your chances of winning, share <br>your best score & time on social media,<br> tag Mahindra & use the hashtag ​</p>
+                                <p id="unleash">#UnleashThePro​</p>
+                                <img src="images/caro6.png" alt="" id="caro_6">
                             </div>
                         </div>
 
                     </div>
 
                     <div class="ctabox2">
-                        <img src="images/gotit.png" alt="cta" class=" letsgopg2">
+                      <!-- <a href="#"> -->  <img id="nextBtn" src="images/nextBtn.png" alt="cta" class=" letsgopg2" style="display:block;">
+                      	<img id="gotit" src="images/gotit.png" alt="cta" class=" letsgopg2" onclick="loadGameScreen();" style="display:none;"><!-- </a> -->
                     </div>
                 </div>
             </div>
            
         </div>
-    </div>
-    </div>
-</body>
+        <!-- Page 3 -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" ></script>
+        <div class="maind_pg3" style="display: none;">
+            <div class="deslogo">
+
+                <div class="pg3" style="display: none;">
+                    <img src="images/toplogo.png" alt="logo" class="img-fluid toplogopg3">
+                    <br>
+                    <img src="images/unleashed.png" alt="unleashed" class=" unleashedpg3 img-fluid">
+    
+                        <div class="textbox_3top">
+                            <p class="howtopg3">Nice!</p>
+                            <p class="test2pg3_up">Your time was <strong> XX minutes XX seconds.</strong></p>
+                            <p class="test2pg3_up">You’ve proved to be a PRO just like the Mahindra XUV400 EL PRO. ​</p>
+                        </div>
+    
+                        <div class="screenbox">
+                            <img src="images/screen1.png" alt="screen" class="screen_1 img_fluid">
+                        </div>
+    
+                        <div class="ctabox3">
+                          <a href="#">  <img src="images/sharenow.png" alt="cta" class=" letsgopg3"></a>
+                          <a href="#">  <img src="images/sharefriends.png" alt="cta" class=" letsgopg3"></a>
+                        </div>
+
+                        <div class="textbox3_down">
+                            
+                            <p class="test3pg3_down">Take a screenshot of the thrilling new </p>
+                            <p class="test3pg3_down">Mahindra vehicle, share it on social media <br>and tag @XUV400 for a once in a lifetime <br>opportunity to visit the Chakan plant!  ​</p>
+                        </div>
+                </div>
+
+                <div class="pg4" style="display: block;">
+                    <img src="images/toplogo.png" alt="logo" class="img-fluid toplogopg3">
+                    <br>
+                    <img src="images/unleashed.png" alt="unleashed" class=" unleashedpg3 img-fluid">
+    
+                        <div class="textbox_3top">
+                            <p class="howtopg3">Oops</p>
+                            <p class="test2pg3_up">You’ve unlocked only 2 out of 5 features <br> of the Mahindra XUV400 EL PRO <br>in <strong>XX minutes XX seconds.</strong> ​</p>
+                           
+                        </div>
+    
+                        <div class="screenbox">
+                            <img src="images/screen2.png" alt="screen" class="screen_1 img_fluid">
+                        </div>
+    
+                        <div class="ctabox3">
+                          <a href="#">  <img src="images/tryagain.png" alt="cta" class="letsgopg3"></a>
+                          <a href="#">  <img src="images/sharenow.png" alt="cta" class=" letsgopg3"></a>
+                        </div>
+
+                       
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" ></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -94,7 +174,9 @@
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
     crossorigin="anonymous"></script>
 <script type="text/javascript">
-    $('.owl-carousel').owlCarousel({
+	let gotitImg = document.getElementById("gotit");
+    let owl = $('.owl-carousel');
+    owl.owlCarousel({
     loop:true,
     margin:10,
     
@@ -108,7 +190,31 @@
         1000:{
             items:1
         }
-    }
-})
+    }    
+});
+
+    // Custom Button
+  $('#nextBtn').click(function() {
+    owl.trigger('next.owl.carousel');
+  });
+
+  $('.customPreviousBtn').click(function() {
+    owl.trigger('prev.owl.carousel');
+  });
+
+  $('.owl-carousel').on('changed.owl.carousel', function(e) {
+          if (e.page.index+1 == e.page.count) {
+            console.log('last');
+            document.getElementById("nextBtn").style.display="none";
+            gotitImg.style.display="block";
+          }else
+          if (e.item.index==0 || e.item.index<=e.page.count+1) {
+            console.log('start');
+            document.getElementById("nextBtn").style.display="block";
+            gotitImg.style.display="none";
+          }
+        });
     </script>
+    <script src="js/main.js"></script>
+</body>
 </html>
