@@ -468,7 +468,7 @@ body {
 @media (max-width: 598px) {
 
     .maind {
-        background-image: url(../images/background.jpg);
+        background-image: url(../images/background1.jpg);
     }
 
     .toplogo {
@@ -782,10 +782,8 @@ body {
 @media (max-width: 440px) {
 
     .maind {
-        background-image: url(../images/background2.jpg);
+        background-image: url(../images/background.jpg);
         position: absolute;
-        height: 669px;
-
     }
 
     .maind_pg3 {
